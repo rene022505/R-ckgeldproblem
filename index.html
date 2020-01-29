@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Rückgeld</title>
+    </head>
+    <body>
+        <div id="alle">
+            <div id="auswahl">
+                <label for="25">
+                    <input type="checkbox" name="münzen" value="25" />25
+                </label>
+                <label for="10">
+                    <input type="checkbox" name="münzen" value="10" />10
+                </label>
+                <label for="5">
+                    <input type="checkbox" name="münzen" value="5" />5
+                </label>
+                <label for="1">
+                    <input type="checkbox" name="münzen" value="1" />1
+                </label>
+            </div>
+            <div id="input">
+                <input type="text" id="cents" placeholder="Cents" required />
+            </div>
+            <div id="knopf">
+                <button type="button" id="button">Gib mir Wechselgeld</button
+                ><br />
+            </div>
+            <div>
+                <p id="ausgabe"></p>
+            </div>
+        </div>
+
+        <script src="./logik.js" type="text/javascript"></script>
+    </body>
+</html>

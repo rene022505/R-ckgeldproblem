@@ -1,0 +1,52 @@
+#auswahl {
+    background-color: #1eaee3;
+    text-align: center;
+    padding: 3% 5% 3% 5%;
+    width: 20%;
+    border-radius: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#knopf {
+    background-color: #ed9805;
+    text-align: center;
+    padding: 3% 5% 3% 5%;
+    width: 20%;
+    border-radius: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#input {
+    background-color: #85b84f;
+    text-align: center;
+    padding: 3% 5% 3% 5%;
+    width: 20%;
+    border-radius: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+p {
+    text-align: center;
+    padding: 3% 5% 3% 5%;
+    width: 20%;
+    border-radius: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#alle {
+    margin: 0;
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
